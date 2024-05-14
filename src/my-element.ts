@@ -1,5 +1,5 @@
-import {LitElement, css, html} from 'lit'
-import {customElement, property} from 'lit/decorators.js'
+import { LitElement, css, html } from 'lit'
+import { customElement, property } from 'lit/decorators.js'
 import litLogo from './assets/lit.svg'
 import viteLogo from '/vite.svg'
 
@@ -20,7 +20,7 @@ export class MyElement extends LitElement {
     /**
      * The number of times the button has been clicked.
      */
-    @property({type: Number})
+    @property({ type: Number })
     count = 0
 
     render() {
